@@ -10,7 +10,7 @@ matplotlib.use("QtAgg")
 
 def main():
     parser = argparse.ArgumentParser(description="Calculate chipher text statistics")
-    parser.add_argument("-infile", type=argparse.FileType("r"))
+    parser.add_argument("--infile", "-i", type=argparse.FileType("r"))
     parser.add_argument("--include-unalpha", action="store_true")
 
     args = parser.parse_args()
