@@ -1,6 +1,6 @@
 # LCryp
 
-A simple tool to analyze frequencies in a ciphered text and display graphs of them.
+A simple tool based on matplotlib to analyze frequencies in a ciphered text and display graphs of them.
 The tool has frequencies data just for italian.
 
 Screenshots:
